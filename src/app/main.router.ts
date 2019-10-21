@@ -4,7 +4,7 @@ import { BlockPageComponent } from './pages/block/block.component';
 import { TransactionPageComponent } from './pages/transactions/transactions.component';
 import { AccountPageComponent } from './pages/account/account.component';
 import { AddressPageComponent } from './pages/address/address.component';
-import { ProducersPageComponent } from './pages/producers/producers.component';
+// import { ProducersPageComponent } from './pages/producers/producers.component';
 import { ProducerComponent } from './pages/producer_page/producer_page.component';
 import { AnalyticsPageComponent } from './pages/analytics/analytics.component';
 import { TokensPageComponent } from './pages/tokens/tokens.component';
@@ -32,10 +32,10 @@ export const routes: Routes = [
     path: 'address/:id', 
     component: AddressPageComponent 
   },
-  { 
-    path: 'producers', 
-    component: ProducersPageComponent 
-  },
+  // { 
+  //   path: 'producers', 
+  //   component: ProducersPageComponent 
+  // },
   { 
     path: 'producer/:id', 
     component: ProducerComponent 

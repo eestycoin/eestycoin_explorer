@@ -79,10 +79,10 @@ export const environment = {
        totalBalance: 'EEC',
        convertToUSD: true,
        customBalance: false,
-       logo: '/assets/images/wax.png',
+       logo: '/assets/images/icon.png',
        name: {
-          big: 'eec',
-          small: 'web'
+          big: 'EEC',
+          small: 'Native Coin'
        },
        nets: [],
        disableNets: false,
