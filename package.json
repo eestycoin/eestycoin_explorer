@@ -2,8 +2,8 @@
   "name": "eosweb",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve --proxy-config proxy.conf.json",
-    "build": "ng build --prod --aot",
+    "start": "ng serve --proxy-config proxy.conf.json --host 0.0.0.0",
+    "build": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
