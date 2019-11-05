@@ -20,26 +20,13 @@
         </a>
       </mat-cell>
     </ng-container>
-  
-    
+ 
     <ng-container matColumnDef="Transactions">
       <mat-header-cell *matHeaderCellDef> Transactions</mat-header-cell>
       <mat-cell *matCellDef="let element" class="trx-mainpage"> 
           <strong>{{element?.transactions.length}}</strong>
       </mat-cell>
-    </ng-container>
-
-    <!-- Weight Column -->
-    <ng-container matColumnDef="Producer">
-      <mat-header-cell *matHeaderCellDef> Producer </mat-header-cell>
-      <mat-cell *matCellDef="let element"> 
-          <a [routerLink]="['/producer', element?.producer]" class="color-green">
-              <strong>{{ element?.producer }}</strong>
-          </a>
-      </mat-cell>
-    </ng-container>
-
-    
+    </ng-container>    
     <!-- Name Column -->
     <ng-container matColumnDef="Time">
       <mat-header-cell *matHeaderCellDef> Time</mat-header-cell>
